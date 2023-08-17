@@ -18,6 +18,27 @@
     justify-content: space-between;
   }
 
+  .header-container {
+    color: #5995DA;
+    background-color: #D6E9FE;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+  }
+
+  .social,
+  .logo,
+  .subscribe {
+    border: 1px solid #5995DA;
+  }
+
   .links {
     display: flex;
     justify-content: flex-end;
